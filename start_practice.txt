@@ -1,0 +1,12 @@
+exec practice
+
+bind "F1" "ent_fire smokegrenade_projectile kill;ent_fire molotov_projectile kill;ent_fire flashbang_projectile kill;ent_fire hegrenade_projectile kill;ent_fire decoy_projectile kill;stopsound";
+bind "F2" "sv_rethrow_last_grenade";
+bind "F3" "bot_add_ct";
+bind "F4" "bot_add_t";
+bind "F5" "bot_place";
+bind "F6" "toggle bot_stop 1 0";
+bind "F7" "toggle bot_crouch 1 0";
+bind "F8" "toggle bot_mimic 1 0";
+bind "F9" "toggle cl_draw_only_deathnotices 1 0";
+bind n noclip;
